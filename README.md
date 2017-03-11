@@ -1,5 +1,8 @@
-# Setgo
+# Setgo-Windows
+Quick change directory "cd" for the Windows command-line 
 
 All you need is the setgo.exe program.
 
-See the Setgo wiki for details: https://github.com/Corionis/Setgo/wiki
+See the [Setgo-Windows Wiki](https://github.com/Corionis/Setgo-Windows/wiki) for details.
+
+There is also [Setgo-Linux](https://github.com/Corionis/Setgo-Linux).
