@@ -1,5 +1,5 @@
 # Setgo-Windows
-Quick change directory "cd" for the Windows command-line 
+Quick change directory "cd" for the Windows command line 
 
 All you need is the setgo.exe program.
 
