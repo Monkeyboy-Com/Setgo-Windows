@@ -72,8 +72,13 @@ If $_panErrorValue <> 0 Then
 	CloseProgram()
 EndIf
 
+If $_mode == 3 Then
+	Help()
+	CloseProgram()
+EndIf
+
 If StringLen($_target) = 0 Then
-	If $_mode = 3 Then
+	If $_mode == 3 Then
 		$_target = "."
 	Else
 		Help()
@@ -81,7 +86,7 @@ If StringLen($_target) = 0 Then
 	EndIf
 EndIf
 
-If $_target = "." Then
+If $_target == "." Then
 	Local $a
 	$_target = @WorkingDir
 	$a = StringSplit($_target, "\")
@@ -272,8 +277,8 @@ Func ParseOptions()
 			$_mode = 3
 			ContinueLoop
 		EndIf
-		If $opt == "-?" Or $opt == "/?" Or $opt == "-h" Or $opt == "/h" Or $opt == "--help" Then		; help
-			$_mode = 3
+		If StringInStr("-?/?-h/h--help/help", $opt) Then ; help
+			$_mode = 4
 			ContinueLoop
 		EndIf
 		$_target = $CmdLine[$j]
