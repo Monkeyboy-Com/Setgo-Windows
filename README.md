@@ -5,6 +5,6 @@ All you need is the setgo.exe program.
 
 Run setgo.exe with no arguments for help.
 
-See the [Setgo-Windows Wiki](https://github.com/Corionis/Setgo-Windows/wiki) for details and downloads.
+See the [Setgo-Windows Wiki](https://github.com/Monkeyboy-Com/Setgo-Windows/wiki) for details and downloads.
 
-There is also [Setgo-Linux](https://github.com/Corionis/Setgo-Linux).
+There is also [Setgo-Linux](https://github.com/Monkeyboy-Com/Setgo-Linux).
